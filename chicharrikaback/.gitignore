@@ -27,7 +27,7 @@ logs/
 
 # Ignorar archivos de dependencias de Sequelize
 /migrations/
-/models/
+
 /seeders/
 
 # Ignorar archivos de configuración de base de datos locales
