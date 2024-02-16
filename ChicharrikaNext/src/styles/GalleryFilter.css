@@ -1,0 +1,71 @@
+/* Estilos base */
+.gallery-filter {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  margin: 1rem auto;
+  margin-top: 200px;
+}
+
+.filter-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.filter-title span {
+  font-size: 1.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  font-weight: bold;
+}
+
+.filter-btn-container {
+  color: white;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-button {
+  width: 11rem;
+  height: 4rem;
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  background-color: #830c0c;
+  border-radius: 2.5rem;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.gallery-button:hover,
+.gallery-button.active {
+  opacity: 0.5;
+  color: #830c0c;
+  background-color: antiquewhite;
+  border: 4px solid red; /* Añadir 'solid' u otro tipo de borde según sea necesario */
+}
+
+.gallery-link {
+  font-weight: bolder;
+  color: white;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-link:hover,
+.gallery-link.active {
+  color: red;
+}

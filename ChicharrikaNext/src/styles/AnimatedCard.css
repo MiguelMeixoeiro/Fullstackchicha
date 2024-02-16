@@ -1,0 +1,248 @@
+.main-cta {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  margin-left: 15%;
+}
+
+.imgcta {
+  height: 247%;
+  width: auto;
+  margin-right: 102%;
+  margin-bottom: 13%;
+  opacity: 0;
+}
+
+.card {
+  position:absolute;
+  width: 43vw;
+  height: 55vh;
+  background-color: #0d0d0d00;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #3e2d0e4f;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+.cardp--formato {
+  font-family: "Raleway", "san-serif";
+  font-size: 5vw;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #020202;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.no-decoration a {
+  text-decoration: none;
+}
+
+.card:hover .card-content {
+  transform: rotateX(0deg);
+}
+.card-title {
+  margin: 0;
+  font-size: 24px;
+  color: #f2f2f2;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card-description {
+  margin: 10px 0 0;
+  font-size: 1.8vw;
+  color: #777;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.link-banner{
+  color: #fff;
+  margin-top: 10px;
+  font-family: "raleway", Helvetica, sans-serif;
+  font-size: 17px;
+  background: #8c0303;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #66da4300;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.link-banner a{
+  color: #fff;
+}
+
+.link-banner a:hover{
+  color: #fff;
+}
+
+.link-banner:hover{
+  border: 2px solid #d9d9d9;
+  background: #000000;
+  color: #fff;
+}
+
+.button-banner {
+  margin-top: 10px;
+  font-family: "raleway", Helvetica, sans-serif;
+  font-size: 17px;
+  background: #8c0303;
+  color: #fff;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #66da4300;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+
+.button-banner:hover {
+  border: 2px solid #d9d9d9;
+  background: #00000000;
+  color: #fff;
+}
+
+.button-banner:active {
+  border: 2px solid #66da4300;
+  background: #f20519;
+  color: black;
+}
+.button-banner a {
+  overflow: hidden;
+  padding: 0%;
+  
+}
+
+.card-title {
+  margin: 0;
+  font-size: 24px;
+  color: #f2f2f2;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card-description {
+  margin: 10px 0 0;
+  font-size: 1.8vw;
+  color: #777;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.button__banner {
+  margin-top: 10px;
+  font-family: "raleway", Helvetica, sans-serif;
+  font-size: 17px;
+  background: #8c0303;
+  color: #d9d9d9;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #66da4300;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.button__banner:hover {
+  border: 2px solid #d9d9d9;
+  background: #00000000;
+  color: #fff;
+}
+
+.button__banner:active {
+  border: 2px solid #66da4300;
+  background: #f20519;
+  color: black;
+}
+.button__banner a {
+  overflow: hidden;
+  padding: 0%;
+}
+
+.button {
+  margin-top: 10px;
+  font-family: 'raleway', Helvetica, sans-serif;
+  font-size: 17px;
+  background: #8c0303;
+  color: #d9d9d9;
+  padding: 0.7em 5.5em;
+  display: flex;
+  align-items: center;
+  border: 2px solid #66da4300;
+  border-radius: 5em;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid #d9d9d9;
+  background: #00000000;
+  color: #fff;
+}
+
+.button:active {
+  border: 2px solid #66da4300;
+  background: #f20519;
+  color: black;
+}
+.button a {
+  overflow: hidden;
+  padding: 0%;
+}
+
+@media only screen and (max-width: 840px) {
+.card{
+  margin-top: 25%;
+}
+
+}

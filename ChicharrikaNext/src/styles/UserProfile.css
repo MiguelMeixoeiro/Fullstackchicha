@@ -1,0 +1,46 @@
+.profile-container {
+  text-align: center;
+  background-color: #fff;
+	color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-container{
+	display: flex;
+	width: 100%;
+	background-color: red;
+	align-items: center;
+}
+
+.profile-picture {
+	display: block;
+	width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  margin: 0;
+  color: #333;
+}
+
+.profile-email {
+  margin: 5px 0;
+  color: #777;
+}
+
+.edit-profile-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-profile-btn:hover {
+  background-color: #45a049;
+}

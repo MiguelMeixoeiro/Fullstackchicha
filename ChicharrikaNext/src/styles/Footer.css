@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    margin: 1% -1%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+.logo-footer-letters{
+  width: 150px;
+}

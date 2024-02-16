@@ -1,0 +1,95 @@
+.payment-container {
+    width: 100vw;
+    margin: auto;
+    margin-top: 110px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.form-payment {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 30, 30);
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 400px; 
+}
+
+.form-group {
+    display: flex;
+    margin: 5px;
+}
+
+.label-field {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: flex-start;
+    
+}
+
+input {
+    background-color: rgb(23, 22, 22);
+    border: 1px solid rgb(61, 60, 60);
+    color: white;
+    border-radius: 2px;
+    margin-top: 5px; /* Añadido para mayor separación entre campos */
+    pointer-events: auto;
+}
+
+.error-message{
+    font-size: 12px;
+}
+
+.button-payment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.pay {
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    min-width: 20vw;
+    font-family: 'raleway', Helvetica, sans-serif;
+    font-size: 17px;
+    background: #8c0303;
+    color: #d9d9d9;
+    padding: 0.7em 5.5em;
+    border: 2px solid #66da4300;
+    border-radius: 5em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.pay:hover{
+    border: 2px solid #d9d9d9;
+    background: #000000;
+    color: #fff;
+}
+
+.form-checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.terms-link{
+    margin-left: 5px;
+}
+
+.name-lastnames{
+    background-color: red;
+}

@@ -1,0 +1,44 @@
+.main-thanks-container{
+    background-image: url(../assets/img/smokeThanksPage.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+    margin-top: -90px;
+}
+
+.black-container{
+    width: 30%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    margin-top: 270px;
+    background-color: #262726d5;
+    border-radius: 15px;
+    box-shadow: -1px 0px 20px 20px #ededed95;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo-firma{
+    width: 75%;
+    text-align: center;
+    
+}
