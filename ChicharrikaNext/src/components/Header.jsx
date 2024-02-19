@@ -8,7 +8,8 @@ import { SearchBar } from './SearchBar';
 import { Suggestions } from './Suggestions';
 import { useCart } from '../CartContext';  // Importa useCart
 import CartDisplay from './CartDisplay';  // Importa CartDisplay
-
+import DarkButton from './DarkButton/DarkButton.jsx';
+// import VoiceControl from './DarkButton/VoiceControl.jsx';
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -63,6 +64,8 @@ const Header = () => {
             <LogoHeaderR />
         </Link>
       <header>
+      {/* <VoiceControl onVoiceCommand={handleVoiceCommand} /> */}
+          <DarkButton  />
         <div className='search-container'>
         <SearchBar
               setResults={setSuggestions} // Asegúrate de que estás pasando setResults correctamente
@@ -82,7 +85,6 @@ const Header = () => {
         </button>
         {cartVisible && <CartDisplay hideCart={hideCart} />} {/*Renderiza CartDisplay solo cuando cartVisible es true */}
         <button onClick={closeCart} className={`close-cart-btn ${cartVisible ? 'visible' : 'hidden'}`}>X</button>
-
       </header>
     </div>
   );

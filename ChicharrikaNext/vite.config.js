@@ -11,5 +11,8 @@ export default defineConfig({
   test: {
     environment: 'jsdom'
   },
+  optimizeDeps: {
+    exclude: ['@tensorflow-models/speech-commands'],
+  },
   
 });

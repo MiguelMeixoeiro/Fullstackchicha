@@ -1,0 +1,34 @@
+/* DarkButton.css */
+
+.dark-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dark-button:hover {
+  background-color: #555;
+}
+
+.dark-button:active {
+  background-color: #222;
+}
+/* DarkThemeToggle.css */
+.dark-theme-toggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+body.dark-theme {
+  background-color: red;
+  color: #ffffff;
+  /* Agrega cualquier otro estilo específico del tema oscuro que necesites */
+}
