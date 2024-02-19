@@ -1,34 +1,27 @@
 /* DarkButton.css */
 
-.dark-button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.dark-button:hover {
-  background-color: #555;
-}
-
-.dark-button:active {
-  background-color: #222;
-}
-/* DarkThemeToggle.css */
 .dark-theme-toggle {
-  background-color: #333;
+  background-color:#fff;
   color: #fff;
   border: none;
   padding: 8px 16px;
   cursor: pointer;
   font-size: 14px;
+  z-index: 99999999; /* Asegúrate de que el botón tenga un z-index superior a 0 */
 }
 
-body.dark-theme {
-  background-color: red;
-  color: #ffffff;
-  /* Agrega cualquier otro estilo específico del tema oscuro que necesites */
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -99999999999; /* Asegúrate de que el video tenga un z-index menor que el botón */
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+  z-index: -9999;
 }

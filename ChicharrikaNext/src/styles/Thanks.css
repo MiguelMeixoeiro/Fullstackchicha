@@ -9,7 +9,7 @@
     right: 0;
     bottom: 0;
     position: absolute;
-
+    z-index: 99999999999999;
     margin-top: -90px;
 }
 
@@ -24,6 +24,7 @@
     box-shadow: -1px 0px 20px 20px #ededed95;
     flex-wrap: nowrap;
     flex-direction: column;
+    z-index: 99999999999999;
 }
 
 h2{
@@ -34,11 +35,13 @@ h2{
     margin-top: 110px;
     display: flex;
     flex-direction: column;
+    z-index: 99999999999999;
 }
 
 
 .logo-firma{
     width: 75%;
     text-align: center;
+    z-index: 99999999999999;
     
 }

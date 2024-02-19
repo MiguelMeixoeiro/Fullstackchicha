@@ -4,6 +4,7 @@
   margin-top: 170px;
   height: 100%;
   width: 100vw;
+  z-index: 99999999999999;
 }
 
 .tarjeta-padre {
@@ -13,6 +14,7 @@
   margin: auto;
   border-radius: 28px;
   width: 100vh;
+  z-index: 99999999999999;
 }
 
 .tarjeta {
@@ -23,7 +25,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-
+  z-index: 99999999999999;
   margin: 10px auto; /* Ajusta según sea necesario */
 }
 
@@ -31,12 +33,14 @@
   width:auto;
   height: 8em;
   border-radius: 18px;
+  z-index: 99999999999999;
 }
 .wish-subtile {
   color: red;
   font-weight: bolder;
   font-size: 2em;
   margin-left: 1em;
+  z-index: 99999999999999;
 }
 
 .wish-price {
@@ -45,6 +49,7 @@
   font-size: 2em;
   margin: auto;
   margin-left: 2em;
+  z-index: 99999999999999;
 
 }
 
@@ -52,6 +57,7 @@
   background-color: green;
   flex-direction: column;
   align-items: flex-end;
+  z-index: 99999999999999;
 
 
 } 
@@ -60,6 +66,7 @@
   background-color: blue;
   flex-direction: column;
   align-items: left;
+  z-index: 99999999999999;
  
 }
 
@@ -72,18 +79,23 @@
   justify-content: space-around ;
   background-color: green;
   margin-bottom: 7vh;
+  z-index: 99999999999999;
 }
 
 .logo-basura {
   background-color: red;
+  z-index: 99999999999999;
 }
 .logo-basura:hover {
   background-color: blue;
+  z-index: 99999999999999;
 }
 
 .logo-like{
   background-color: red;
+  z-index: 99999999999999;
 }
 .logo-like:hover {
   background-color: green;
+  z-index: 99999999999999;
 }

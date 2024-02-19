@@ -9,16 +9,19 @@
   gap: 1.5rem;
   margin: 1rem auto;
   margin-top: 200px;
+  z-index: 99999999999999;
 }
 
 .filter-title {
   text-align: center;
   margin-bottom: 10px;
+  z-index: 99999999999999;
 }
 
 .filter-title span {
   font-size: 1.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
   font-weight: bold;
+  z-index: 99999999999999;
 }
 
 .filter-btn-container {
@@ -28,6 +31,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 99999999999999;
 }
 
 .gallery-button {
@@ -44,6 +48,7 @@
   align-items: center;
   justify-content: center;
   outline: none;
+  z-index: 99999999999999;
 }
 
 .gallery-button:hover,
@@ -52,6 +57,7 @@
   color: #830c0c;
   background-color: antiquewhite;
   border: 4px solid red; /* Añadir 'solid' u otro tipo de borde según sea necesario */
+  z-index: 99999999999999;
 }
 
 .gallery-link {
@@ -63,9 +69,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 99999999999999;
 }
 
 .gallery-link:hover,
 .gallery-link.active {
   color: red;
+  z-index: 99999999999999;
 }
