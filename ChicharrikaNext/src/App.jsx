@@ -18,6 +18,7 @@ import Payment from './pages/Payment'
 import Thanks from './pages/Thanks'
 import WishList from './pages/WishList'
 import { WishListProvider } from './hooks/WishListContext';
+import EditProfile from './components/EditProfile/EditProfile';
 
 
 function App() {
@@ -34,11 +35,12 @@ function App() {
           <Route path="/login" element={<Login />}/>
           <Route path="/terms" element={<Terms />} />
           <Route path="/payment" element={<Payment />} />          
-          <Route path="/user-profile/:userId?" element={<UserProfile userId={1} />} />
+          <Route path="/user-profile/:userId?" element={<UserProfile />} />
           <Route path="/finish" element={<Finish />} />  {/* Agrega la ruta de la página de finalización */}
           <Route path="/thanks" element={<Thanks />} />
           <Route path="/multiverse" element={<EasterEgg />} /> 
           <Route path="/wishlist" element={<WishList/>} />
+          <Route path="/edit-profile/:userId?" element={<EditProfile />} />
         </Routes>
         </WishListProvider>
       </CartProvider>
